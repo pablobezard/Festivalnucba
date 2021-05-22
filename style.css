@@ -226,7 +226,22 @@ hr{
     }
 
 
-
+    @keyframes respiracion{
+        0%{
+            -webkit-box-shadow: 1px 0px 18px 2px #FF00C8; 
+            box-shadow: 1px 0px 18px 2px #FF00C8;
+        }
+        
+        50%{
+            -webkit-box-shadow: 1px 0px 10px 2px #FF00C8; 
+    box-shadow: 1px 0px 10px 2px #FF00C8;
+        }
+    
+        100%{
+            -webkit-box-shadow: 1px 0px 16px 2px #FF00C8; 
+            box-shadow: 1px 0px 16px 2px #FF00C8;
+        }
+    }
 
 
 .news-cards a{
@@ -235,7 +250,17 @@ hr{
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
+  
 
+}
+
+.content-new{
+    animation-name: respiracion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.contenedor-img-new{
+   
 }
 
 /*about us*/
